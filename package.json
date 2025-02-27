@@ -1,7 +1,6 @@
 {
-  "name": "app-ui-pro3-vue",
+  "name": "nuxt-ui-pro-template-dashboard-vue",
   "private": true,
-  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -30,5 +29,6 @@
   },
   "resolutions": {
     "@nuxt/ui": "https://pkg.pr.new/@nuxt/ui@607d9a7"
-  }
+  },
+  "packageManager": "pnpm@10.5.0"
 }
