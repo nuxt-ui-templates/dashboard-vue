@@ -1,4 +1,4 @@
-# Nuxt UI Pro - Vue Starter
+# Nuxt UI Pro - Vue Dashboard template
 
 ## Setup
 
