@@ -1,0 +1,14 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended"
+  ],
+  "lockFileMaintenance": {
+    "enabled": true
+  },
+  "packageRules": [{
+    "matchDepTypes": ["resolutions"],
+    "enabled": false
+  }],
+  "postUpdateOptions": ["pnpmDedupe"]
+}
