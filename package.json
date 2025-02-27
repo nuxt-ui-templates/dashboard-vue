@@ -30,5 +30,5 @@
   "resolutions": {
     "@nuxt/ui": "https://pkg.pr.new/@nuxt/ui@607d9a7"
   },
-  "packageManager": "pnpm@10.5.0"
+  "packageManager": "pnpm@10.5.2"
 }
