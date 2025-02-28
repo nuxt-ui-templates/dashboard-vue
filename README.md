@@ -16,22 +16,20 @@ Get started with the Vite + Vue 3 dashboard template with multiple pages, collap
 
 The dashboard template for Nuxt is on https://github.com/nuxt-ui-pro/dashboard
 
+## Quick Start
+
+```bash [Terminal]
+npx giget@latest gh:nuxt-ui-pro/dashboard-vue my-vue-dashboard
+```
+
+Once the directory is created, you can install the dependencies and start the development server using the `npm run dev` command.
+
 ## Setup
 
 Make sure to install the dependencies:
 
 ```bash
-# npm
-npm install
-
-# pnpm
 pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
 ## Development Server
@@ -39,17 +37,7 @@ bun install
 Start the development server on `http://localhost:5173`:
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
+pnpm dev
 ```
 
 ## Production
@@ -57,31 +45,11 @@ bun run dev
 Build the application for production:
 
 ```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
+pnpm build
 ```
 
 Locally preview production build:
 
 ```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
+pnpm preview
 ```
