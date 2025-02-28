@@ -2,15 +2,19 @@
 
 Get started with the Vite + Vue 3 dashboard template with multiple pages, collapsible sidebar, keyboard shortcuts, light & dark more, command palette and more, powered by the [Nuxt UI Pro](https://ui3.nuxt.dev/getting-started/installation/pro/vue) UI Library (Vue mode).
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="[https://github.com/user-attachments/assets/91ceab67-89ce-4ef4-8678-4402a92baca5](https://github.com/user-attachments/assets/c620cfcb-f244-49c0-8c9e-e95c17f014ef)">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/dea19eb7-5219-46c2-9267-57a982b13569">
-  <img alt="Vue Dashboard with Nuxt UI Pro" src="[https://github.com/user-attachments/assets/51526d6d-e5ec-41b4-aa37-242dec1cdb27](https://github.com/user-attachments/assets/dea19eb7-5219-46c2-9267-57a982b13569)">
-</picture>
+[Live Demo](https://vue-dashboard-template.nuxt.dev)
 
-## Demo
+<a href="https://vue-dashboard-template.nuxt.dev" target="_blank">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="[https://github.com/user-attachments/assets/91ceab67-89ce-4ef4-8678-4402a92baca5](https://github.com/user-attachments/assets/c620cfcb-f244-49c0-8c9e-e95c17f014ef)">
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/dea19eb7-5219-46c2-9267-57a982b13569">
+    <img alt="Vue Dashboard with Nuxt UI Pro" src="[https://github.com/user-attachments/assets/51526d6d-e5ec-41b4-aa37-242dec1cdb27](https://github.com/user-attachments/assets/dea19eb7-5219-46c2-9267-57a982b13569)">
+  </picture>
+</a>
 
-See a live demo on https://vue-dashboard-template.nuxt.dev
+## Nuxt Dashboard Template
+
+The dashboard template for Nuxt is on https://github.com/nuxt-ui-pro/dashboard
 
 ## Setup
 
