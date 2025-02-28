@@ -1,4 +1,4 @@
-# Vue Dashboard template with Nuxt UI Pro
+# Vue Dashboard Template with Nuxt UI Pro
 
 Get started with the Vite + Vue 3 dashboard template with multiple pages, collapsible sidebar, keyboard shortcuts, light & dark more, command palette and more, powered by the [Nuxt UI Pro](https://ui3.nuxt.dev/getting-started/installation/pro/vue) UI Library (Vue mode).
 
