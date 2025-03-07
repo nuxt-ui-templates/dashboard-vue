@@ -12,16 +12,16 @@ const teams = ref([{
     alt: 'Vue'
   }
 }, {
-  label: 'NuxtHub',
+  label: 'Vite',
   avatar: {
-    src: 'https://github.com/nuxt-hub.png',
-    alt: 'NuxtHub'
+    src: 'https://github.com/vitejs.png',
+    alt: 'Vite'
   }
 }, {
-  label: 'NuxtLabs',
+  label: 'Vitest',
   avatar: {
-    src: 'https://github.com/nuxtlabs.png',
-    alt: 'NuxtLabs'
+    src: 'https://github.com/vitest-dev.png',
+    alt: 'Vitest'
   }
 }])
 const selectedTeam = ref(teams.value[0])
