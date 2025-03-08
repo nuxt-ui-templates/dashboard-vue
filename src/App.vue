@@ -1,24 +1,35 @@
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed, ref } from 'vue'
 import { useRoute } from 'vue-router'
 import { useStorage } from '@vueuse/core'
 
 const toast = useToast()
 const route = useRoute()
 
+const open = ref(false)
+
 const links = [[{
   label: 'Home',
   icon: 'i-lucide-house',
-  to: '/'
+  to: '/',
+  onSelect: () => {
+    open.value = false
+  }
 }, {
   label: 'Inbox',
   icon: 'i-lucide-inbox',
   to: '/inbox',
-  badge: '4'
+  badge: '4',
+  onSelect: () => {
+    open.value = false
+  }
 }, {
   label: 'Customers',
   icon: 'i-lucide-users',
-  to: '/customers'
+  to: '/customers',
+  onSelect: () => {
+    open.value = false
+  }
 }, {
   label: 'Settings',
   to: '/settings',
@@ -27,16 +38,28 @@ const links = [[{
   children: [{
     label: 'General',
     to: '/settings',
-    exact: true
+    exact: true,
+  onSelect: () => {
+    open.value = false
+  }
   }, {
     label: 'Members',
-    to: '/settings/members'
+    to: '/settings/members',
+  onSelect: () => {
+    open.value = false
+  }
   }, {
     label: 'Notifications',
-    to: '/settings/notifications'
+    to: '/settings/notifications',
+  onSelect: () => {
+    open.value = false
+  }
   }, {
     label: 'Security',
-    to: '/settings/security'
+    to: '/settings/security',
+  onSelect: () => {
+    open.value = false
+  }
   }]
 }], [{
   label: 'Feedback',
@@ -95,6 +118,7 @@ if (cookie.value !== 'accepted') {
         <UDashboardSearch :groups="groups" />
 
         <UDashboardSidebar
+          v-model:open="open"
           collapsible
           resizable
           class="bg-(--ui-bg-elevated)/25"
