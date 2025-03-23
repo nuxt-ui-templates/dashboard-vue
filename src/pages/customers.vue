@@ -253,8 +253,8 @@ const pagination = ref({
             :items="
               table?.tableApi
                 ?.getAllColumns()
-                .filter((column) => column.getCanHide())
-                .map((column) => ({
+                .filter((column: any) => column.getCanHide())
+                .map((column: any) => ({
                   label: upperFirst(column.id),
                   type: 'checkbox' as const,
                   checked: column.getIsVisible(),
@@ -311,7 +311,7 @@ const pagination = ref({
             :default-page="(table?.tableApi?.getState().pagination.pageIndex || 0) + 1"
             :items-per-page="table?.tableApi?.getState().pagination.pageSize"
             :total="table?.tableApi?.getFilteredRowModel().rows.length"
-            @update:page="(p) => table?.tableApi?.setPageIndex(p - 1)"
+            @update:page="(p: number) => table?.tableApi?.setPageIndex(p - 1)"
           />
         </div>
       </div>
