@@ -100,12 +100,5 @@ const items = computed<DropdownMenuItem[][]>(() => ([[{
         trailingIcon: 'text-(--ui-text-dimmed)'
       }"
     />
-
-    <template #chip-leading="{ item }">
-      <span
-        :style="{ '--chip': `var(--color-${(item as any).chip}-400)` }"
-        class="ms-0.5 size-2 rounded-full bg-(--chip)"
-      />
-    </template>
   </UDropdownMenu>
 </template>
