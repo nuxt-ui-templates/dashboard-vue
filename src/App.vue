@@ -114,10 +114,9 @@ if (cookie.value !== 'accepted') {
 <template>
   <Suspense>
     <UApp>
-      <UDashboardGroup storage="local">
-        <UDashboardSearch :groups="groups" />
-
+      <UDashboardGroup unit="rem" storage="local">
         <UDashboardSidebar
+          id="default"
           v-model:open="open"
           collapsible
           resizable
@@ -152,6 +151,8 @@ if (cookie.value !== 'accepted') {
             <UserMenu :collapsed="collapsed" />
           </template>
         </UDashboardSidebar>
+
+        <UDashboardSearch :groups="groups" />
 
         <RouterView />
 
