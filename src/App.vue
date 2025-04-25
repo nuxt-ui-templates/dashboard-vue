@@ -120,8 +120,8 @@ if (cookie.value !== 'accepted') {
           v-model:open="open"
           collapsible
           resizable
-          class="bg-(--ui-bg-elevated)/25"
-          :ui="{ footer: 'lg:border-t lg:border-(--ui-border)' }"
+          class="bg-elevated/25"
+          :ui="{ footer: 'lg:border-t lg:border-default' }"
         >
           <template #header="{ collapsed }">
             <TeamsMenu :collapsed="collapsed" />
@@ -130,7 +130,7 @@ if (cookie.value !== 'accepted') {
           <template #default="{ collapsed }">
             <UDashboardSearchButton
               :collapsed="collapsed"
-              class="bg-transparent ring-(--ui-border)"
+              class="bg-transparent ring-default"
             />
 
             <UNavigationMenu

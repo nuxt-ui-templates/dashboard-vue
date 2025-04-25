@@ -18,7 +18,7 @@ const { data: notifications } = useFetch('https://dashboard-template.nuxt.dev/ap
         v-for="notification in notifications"
         :key="notification.id"
         :to="`/inbox?id=${notification.id}`"
-        class="px-3 py-2.5 rounded-md hover:bg-(--ui-bg-elevated)/50 flex items-center gap-3 relative -mx-3 first:-mt-3 last:-mb-3"
+        class="px-3 py-2.5 rounded-md hover:bg-elevated/50 flex items-center gap-3 relative -mx-3 first:-mt-3 last:-mb-3"
       >
         <UChip
           color="error"
@@ -34,16 +34,16 @@ const { data: notifications } = useFetch('https://dashboard-template.nuxt.dev/ap
 
         <div class="text-sm flex-1">
           <p class="flex items-center justify-between">
-            <span class="text-(--ui-text-highlighted) font-medium">{{ notification.sender.name }}</span>
+            <span class="text-highlighted font-medium">{{ notification.sender.name }}</span>
 
             <time
               :datetime="notification.date"
-              class="text-(--ui-text-muted) text-xs"
+              class="text-muted text-xs"
               v-text="formatTimeAgo(new Date(notification.date))"
             />
           </p>
 
-          <p class="text-(--ui-text-dimmed)">
+          <p class="text-dimmed">
             {{ notification.body }}
           </p>
         </div>
