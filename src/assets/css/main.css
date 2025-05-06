@@ -13,3 +13,7 @@
   --color-green-800: oklch(32.298% 0.05338 161.83);
   --color-green-900: oklch(17.276% 0.02184 161.78);
 }
+
+.dark {
+  --ui-primary: var(--ui-color-primary-500);
+}
