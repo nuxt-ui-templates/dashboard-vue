@@ -2,6 +2,8 @@
 @import "@nuxt/ui-pro";
 
 @theme static {
+  --font-sans: 'Public Sans', sans-serif;
+
   --color-green-50: oklch(90.98% 0.04338 166.72);
   --color-green-100: oklch(88.46% 0.05417 166.29);
   --color-green-200: oklch(83.957% 0.07763 165.13);
