@@ -10,19 +10,19 @@
     "typecheck": "vue-tsc -p ./tsconfig.app.json"
   },
   "dependencies": {
-    "@nuxt/ui-pro": "^3.1.1",
+    "@nuxt/ui-pro": "^3.1.2",
     "@unovis/vue": "^1.5.1",
     "date-fns": "^4.1.0",
-    "vue": "^3.5.13",
+    "vue": "^3.5.14",
     "vue-router": "^4.5.1",
     "zod": "^3.24.4"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^5.2.3",
-    "eslint": "^9.26.0",
+    "@vitejs/plugin-vue": "^5.2.4",
+    "eslint": "^9.27.0",
     "eslint-plugin-vue": "^10.1.0",
     "typescript": "^5.8.3",
-    "typescript-eslint": "^8.31.1",
+    "typescript-eslint": "^8.32.1",
     "vite": "^6.3.5",
     "vue-tsc": "^2.2.10"
   },
@@ -35,5 +35,5 @@
       "vue-demi"
     ]
   },
-  "packageManager": "pnpm@10.10.0"
+  "packageManager": "pnpm@10.11.0"
 }
