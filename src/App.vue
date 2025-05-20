@@ -39,27 +39,27 @@ const links = [[{
     label: 'General',
     to: '/settings',
     exact: true,
-  onSelect: () => {
-    open.value = false
-  }
+    onSelect: () => {
+      open.value = false
+    }
   }, {
     label: 'Members',
     to: '/settings/members',
-  onSelect: () => {
-    open.value = false
-  }
+    onSelect: () => {
+      open.value = false
+    }
   }, {
     label: 'Notifications',
     to: '/settings/notifications',
-  onSelect: () => {
-    open.value = false
-  }
+    onSelect: () => {
+      open.value = false
+    }
   }, {
     label: 'Security',
     to: '/settings/security',
-  onSelect: () => {
-    open.value = false
-  }
+    onSelect: () => {
+      open.value = false
+    }
   }]
 }], [{
   label: 'Feedback',
@@ -128,16 +128,9 @@ if (cookie.value !== 'accepted') {
           </template>
 
           <template #default="{ collapsed }">
-            <UDashboardSearchButton
-              :collapsed="collapsed"
-              class="bg-transparent ring-default"
-            />
+            <UDashboardSearchButton :collapsed="collapsed" class="bg-transparent ring-default" />
 
-            <UNavigationMenu
-              :collapsed="collapsed"
-              :items="links[0]"
-              orientation="vertical"
-            />
+            <UNavigationMenu :collapsed="collapsed" :items="links[0]" orientation="vertical" />
 
             <UNavigationMenu
               :collapsed="collapsed"
