@@ -2,6 +2,7 @@
 import { computed, ref } from 'vue'
 import { useRoute } from 'vue-router'
 import { useStorage } from '@vueuse/core'
+import type { NavigationMenuItem } from '@nuxt/ui'
 
 const toast = useToast()
 const route = useRoute()
@@ -71,7 +72,7 @@ const links = [[{
   icon: 'i-lucide-info',
   to: 'https://github.com/nuxt/ui-pro',
   target: '_blank'
-}]]
+}]] satisfies NavigationMenuItem[][]
 
 const groups = computed(() => [{
   id: 'links',

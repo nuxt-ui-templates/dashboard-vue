@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref, shallowRef } from 'vue'
 import { sub } from 'date-fns'
+import type { DropdownMenuItem } from '@nuxt/ui'
 import { useDashboard } from '../composables/useDashboard'
 import type { Period, Range } from '../types'
 
@@ -14,7 +15,7 @@ const items = [[{
   label: 'New customer',
   icon: 'i-lucide-user-plus',
   to: '/customers'
-}]]
+}]] satisfies DropdownMenuItem[][]
 
 const range = shallowRef<Range>({
   start: sub(new Date(), { days: 14 }),
