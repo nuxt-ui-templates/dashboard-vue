@@ -36,6 +36,7 @@ const links = [[{
   to: '/settings',
   icon: 'i-lucide-settings',
   defaultOpen: true,
+  type: 'trigger',
   children: [{
     label: 'General',
     to: '/settings',
@@ -131,12 +132,19 @@ if (cookie.value !== 'accepted') {
           <template #default="{ collapsed }">
             <UDashboardSearchButton :collapsed="collapsed" class="bg-transparent ring-default" />
 
-            <UNavigationMenu :collapsed="collapsed" :items="links[0]" orientation="vertical" />
+            <UNavigationMenu
+              :collapsed="collapsed"
+              :items="links[0]"
+              orientation="vertical"
+              tooltip
+              popover
+            />
 
             <UNavigationMenu
               :collapsed="collapsed"
               :items="links[1]"
               orientation="vertical"
+              tooltip
               class="mt-auto"
             />
           </template>
