@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-ui-pro-template-dashboard-vue",
+  "name": "nuxt-ui-template-dashboard-vue",
   "private": true,
   "type": "module",
   "scripts": {
@@ -10,7 +10,7 @@
     "typecheck": "vue-tsc -p ./tsconfig.app.json"
   },
   "dependencies": {
-    "@nuxt/ui-pro": "^3.2.0",
+    "@nuxt/ui": "^4.0.0-alpha.0",
     "@unovis/vue": "^1.5.2",
     "date-fns": "^4.1.0",
     "vue": "^3.5.17",
