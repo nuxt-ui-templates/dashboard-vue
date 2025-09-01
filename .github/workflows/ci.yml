@@ -11,9 +11,6 @@ jobs:
         os: [ubuntu-latest]
         node: [22]
 
-    env:
-      NUXT_UI_PRO_LICENSE: ${{ secrets.NUXT_UI_PRO_LICENSE }}
-
     steps:
       - name: Checkout
         uses: actions/checkout@v5
