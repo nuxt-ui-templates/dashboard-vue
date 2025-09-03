@@ -114,7 +114,7 @@ const items = computed<DropdownMenuItem[][]>(() => ([[{
 }, {
   label: 'GitHub repository',
   icon: 'simple-icons:github',
-  to: 'https://github.com/nuxt-ui-pro/dashboard-vue',
+  to: 'https://github.com/nuxt-ui-templates/dashboard-vue',
   target: '_blank'
 }], [{
   label: 'Log out',
