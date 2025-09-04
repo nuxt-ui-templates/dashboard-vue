@@ -1,28 +1,28 @@
 # Vue Dashboard Template
 
-[![Nuxt UI Pro](https://img.shields.io/badge/Made%20with-Nuxt%20UI%20Pro-00DC82?logo=nuxt&labelColor=020420)](https://ui.nuxt.com/pro)
+[![Nuxt UI](https://img.shields.io/badge/Made%20with-Nuxt%20UI-00DC82?logo=nuxt&labelColor=020420)](https://ui.nuxt.com)
 
-Get started with the Vite + Vue dashboard template with multiple pages, collapsible sidebar, keyboard shortcuts, light & dark more, command palette and more, powered by [Nuxt UI Pro](https://ui.nuxt.com/pro).
+Get started with the Vite + Vue dashboard template with multiple pages, collapsible sidebar, keyboard shortcuts, light & dark more, command palette and more, powered by [Nuxt UI](https://ui.nuxt.com).
 
-- [Live Demo](https://vue-dashboard-template.nuxt.dev)
-- [Documentation](https://ui.nuxt.com/getting-started/installation/pro/vue)
+- [Live Demo](https://dashboard-vue-template.nuxt.dev)
+- [Documentation](https://ui4.nuxt.com/docs/getting-started/installation/vue)
 
-<a href="https://vue-dashboard-template.nuxt.dev/" target="_blank">
+<a href="https://dashboard-vue-template.nuxt.dev/" target="_blank">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/c620cfcb-f244-49c0-8c9e-e95c17f014ef">
-    <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/dea19eb7-5219-46c2-9267-57a982b13569">
-    <img alt="Vue Dashboard Template" src="https://github.com/user-attachments/assets/dea19eb7-5219-46c2-9267-57a982b13569">
+    <source media="(prefers-color-scheme: dark)" srcset="https://ui4.nuxt.com/assets/templates/vue/dashboard-dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="https://ui4.nuxt.com/assets/templates/vue/dashboard-light.png">
+    <img alt="Nuxt Dashboard Template" src="https://ui4.nuxt.com/assets/templates/vue/dashboard-light.png">
   </picture>
 </a>
 
 ## Nuxt Dashboard Template
 
-The dashboard template for Nuxt is on https://github.com/nuxt-ui-pro/dashboard.
+The dashboard template for Nuxt is on https://github.com/nuxt-ui-templates/dashboard.
 
 ## Quick Start
 
 ```bash [Terminal]
-npx giget@latest gh:nuxt-ui-pro/dashboard-vue my-vue-dashboard
+npx giget@latest gh:nuxt-ui-templates/dashboard-vue my-vue-dashboard
 ```
 
 Once the directory is created, you can install the dependencies and start the development server using the `npm run dev` command.
