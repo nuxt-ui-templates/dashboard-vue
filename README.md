@@ -4,14 +4,14 @@
 
 Get started with the Vite + Vue dashboard template with multiple pages, collapsible sidebar, keyboard shortcuts, light & dark more, command palette and more, powered by [Nuxt UI](https://ui.nuxt.com).
 
-- [Live Demo](https://vue-dashboard-template.nuxt.dev)
-- [Documentation](https://ui.nuxt.com/getting-started/installation/vue)
+- [Live Demo](https://dashboard-vue-template.nuxt.dev)
+- [Documentation](https://ui4.nuxt.com/docs/getting-started/installation/vue)
 
-<a href="https://vue-dashboard-template.nuxt.dev/" target="_blank">
+<a href="https://dashboard-vue-template.nuxt.dev/" target="_blank">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/c620cfcb-f244-49c0-8c9e-e95c17f014ef">
-    <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/dea19eb7-5219-46c2-9267-57a982b13569">
-    <img alt="Vue Dashboard Template" src="https://github.com/user-attachments/assets/dea19eb7-5219-46c2-9267-57a982b13569">
+    <source media="(prefers-color-scheme: dark)" srcset="https://ui4.nuxt.com/assets/templates/vue/dashboard-dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="https://ui4.nuxt.com/assets/templates/vue/dashboard-light.png">
+    <img alt="Nuxt Dashboard Template" src="https://ui4.nuxt.com/assets/templates/vue/dashboard-light.png">
   </picture>
 </a>
 

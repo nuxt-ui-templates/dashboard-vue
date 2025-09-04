@@ -109,7 +109,7 @@ const items = computed<DropdownMenuItem[][]>(() => ([[{
 }], [{
   label: 'Documentation',
   icon: 'i-lucide-book-open',
-  to: 'https://ui.nuxt.com/getting-started/installation/vue',
+  to: 'https://ui4.nuxt.com/docs/getting-started/installation/vue',
   target: '_blank'
 }, {
   label: 'GitHub repository',
