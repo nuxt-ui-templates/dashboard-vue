@@ -18,7 +18,7 @@
     "zod": "^3.25.76"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^5.2.4",
+    "@vitejs/plugin-vue": "^6.0.1",
     "eslint": "^9.31.0",
     "eslint-plugin-vue": "^10.3.0",
     "typescript": "^5.8.3",
