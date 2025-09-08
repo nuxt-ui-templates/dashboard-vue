@@ -29,11 +29,5 @@
   "resolutions": {
     "unimport": "4.1.1"
   },
-  "pnpm": {
-    "ignoredBuiltDependencies": [
-      "esbuild",
-      "vue-demi"
-    ]
-  },
   "packageManager": "pnpm@10.13.1"
 }
