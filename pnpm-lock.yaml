@@ -14,9 +14,12 @@ importers:
       '@nuxt/ui':
         specifier: ^4.0.0-alpha.1
         version: 4.0.0-alpha.1(@babel/parser@7.28.4)(embla-carousel@8.6.0)(typescript@5.9.2)(vite@7.1.5(jiti@2.5.1)(lightningcss@1.30.1))(vue-router@4.5.1(vue@3.5.21(typescript@5.9.2)))(vue@3.5.21(typescript@5.9.2))(zod@4.1.7)
+      '@unovis/ts':
+        specifier: ^1.6.0
+        version: 1.6.0
       '@unovis/vue':
         specifier: ^1.6.0
-        version: 1.6.0(@unovis/ts@1.5.2)(vue@3.5.21(typescript@5.9.2))
+        version: 1.6.0(@unovis/ts@1.6.0)(vue@3.5.21(typescript@5.9.2))
       date-fns:
         specifier: ^4.1.0
         version: 4.1.0
@@ -991,8 +994,8 @@ packages:
   '@unovis/graphlibrary@2.2.0-2':
     resolution: {integrity: sha512-HeEzpd/vDyWiIJt0rnh+2ICXUIuF2N0+Z9OJJiKg0DB+eFUcD+bk+9QPhYHwkFwfxdjDA9fHi1DZ/O/bbV58Nw==}
 
-  '@unovis/ts@1.5.2':
-    resolution: {integrity: sha512-gpg81cr1z/Q9N45wFUkYCGN8o3GbW9U1qx2iQr+xTgyPFoKR9y9+b/savitxzaMGulHAF7cKlm0Nz/pBbQsFoA==}
+  '@unovis/ts@1.6.0':
+    resolution: {integrity: sha512-icPFHSPHD1AwmLFAu++S4CNN9vgsul4Y4IpYA9aJ9IXnaRLh7+t9WV+UujDsLB/MeSO1sK/lgRem1tWnS+HtMA==}
 
   '@unovis/vue@1.6.0':
     resolution: {integrity: sha512-aic+luFHeeE8aWEJIfmZNZX32UDNgeflc0jZQh7qkghUQuavlnFnNxpL5NyDdW0D8ZuV8PkrocyoOM67moS6aw==}
@@ -3832,7 +3835,7 @@ snapshots:
     dependencies:
       lodash-es: 4.17.21
 
-  '@unovis/ts@1.5.2':
+  '@unovis/ts@1.6.0':
     dependencies:
       '@emotion/css': 11.13.5
       '@juggle/resize-observer': 3.4.0
@@ -3869,9 +3872,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@unovis/vue@1.6.0(@unovis/ts@1.5.2)(vue@3.5.21(typescript@5.9.2))':
+  '@unovis/vue@1.6.0(@unovis/ts@1.6.0)(vue@3.5.21(typescript@5.9.2))':
     dependencies:
-      '@unovis/ts': 1.5.2
+      '@unovis/ts': 1.6.0
       vue: 3.5.21(typescript@5.9.2)
 
   '@vitejs/plugin-vue@6.0.1(vite@7.1.5(jiti@2.5.1)(lightningcss@1.30.1))(vue@3.5.21(typescript@5.9.2))':
