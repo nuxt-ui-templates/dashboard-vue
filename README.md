@@ -15,17 +15,13 @@ Get started with the Vite + Vue dashboard template with multiple pages, collapsi
   </picture>
 </a>
 
-## Nuxt Dashboard Template
-
-The dashboard template for Nuxt is on https://github.com/nuxt-ui-templates/dashboard.
+> The dashboard template for Nuxt is on https://github.com/nuxt-ui-templates/dashboard.
 
 ## Quick Start
 
 ```bash [Terminal]
-npx giget@latest gh:nuxt-ui-templates/dashboard-vue my-vue-dashboard
+npm create nuxt@latest -- --no-templates -t github:nuxt-ui-templates/dashboard-vue
 ```
-
-Once the directory is created, you can install the dependencies and start the development server using the `npm run dev` command.
 
 ## Deploy your own
 
