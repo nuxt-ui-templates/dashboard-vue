@@ -20,7 +20,7 @@ Get started with the Vite + Vue dashboard template with multiple pages, collapsi
 ## Quick Start
 
 ```bash [Terminal]
-npm create nuxt@latest -- --no-templates -t github:nuxt-ui-templates/dashboard-vue
+npm create nuxt@latest -- --no-modules -t github:nuxt-ui-templates/dashboard-vue
 ```
 
 ## Deploy your own
