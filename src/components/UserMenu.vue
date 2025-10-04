@@ -107,6 +107,19 @@ const items = computed<DropdownMenuItem[][]>(() => ([[{
     }
   }]
 }], [{
+  label: 'Templates',
+  icon: 'i-lucide-layout-template',
+  children: [{
+    label: 'Starter',
+    to: 'https://starter-vue-template.nuxt.dev/'
+  }, {
+    label: 'Dashboard',
+    to: 'https://dashboard-vue-template.nuxt.dev/',
+    color: 'primary',
+    checked: true,
+    type: 'checkbox'
+  }]
+}], [{
   label: 'Documentation',
   icon: 'i-lucide-book-open',
   to: 'https://ui.nuxt.com/docs/getting-started/installation/vue',
