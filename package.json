@@ -23,9 +23,9 @@
     "eslint": "^9.39.2",
     "eslint-plugin-vue": "^10.6.2",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.50.0",
+    "typescript-eslint": "^8.50.1",
     "vite": "^7.3.0",
     "vue-tsc": "^3.2.1"
   },
-  "packageManager": "pnpm@10.26.1"
+  "packageManager": "pnpm@10.26.2"
 }
