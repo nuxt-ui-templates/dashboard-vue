@@ -6,7 +6,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "eslint",
+    "lint": "eslint src",
     "typecheck": "vue-tsc -p ./tsconfig.app.json"
   },
   "dependencies": {
