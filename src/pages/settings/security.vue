@@ -11,8 +11,8 @@ const passwordSchema = z.object({
 type PasswordSchema = z.output<typeof passwordSchema>
 
 const password = reactive<Partial<PasswordSchema>>({
-  current: undefined,
-  new: undefined
+  current: '',
+  new: ''
 })
 
 const validate = (state: Partial<PasswordSchema>): FormError[] => {
