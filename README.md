@@ -4,7 +4,7 @@
 
 Get started with the Vite + Vue dashboard template with multiple pages, collapsible sidebar, keyboard shortcuts, light & dark mode, command palette and more, powered by [Nuxt UI](https://ui.nuxt.com).
 
-- [Live Demo](https://dashboard-vue-template.nuxt.dev)
+- [Live demo](https://dashboard-vue-template.nuxt.dev)
 - [Documentation](https://ui.nuxt.com/docs/getting-started/installation/vue)
 
 <a href="https://dashboard-vue-template.nuxt.dev/" target="_blank">
