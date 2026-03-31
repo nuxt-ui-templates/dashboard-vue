@@ -2,7 +2,7 @@
 
 [![Nuxt UI](https://img.shields.io/badge/Made%20with-Nuxt%20UI-00DC82?logo=nuxt&labelColor=020420)](https://ui.nuxt.com)
 
-Get started with the Vite + Vue dashboard template with multiple pages, collapsible sidebar, keyboard shortcuts, light & dark more, command palette and more, powered by [Nuxt UI](https://ui.nuxt.com).
+Get started with the Vite + Vue dashboard template with multiple pages, collapsible sidebar, keyboard shortcuts, light & dark mode, command palette and more, powered by [Nuxt UI](https://ui.nuxt.com).
 
 - [Live Demo](https://dashboard-vue-template.nuxt.dev)
 - [Documentation](https://ui.nuxt.com/docs/getting-started/installation/vue)
@@ -11,7 +11,7 @@ Get started with the Vite + Vue dashboard template with multiple pages, collapsi
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://ui.nuxt.com/assets/templates/vue/dashboard-dark.png">
     <source media="(prefers-color-scheme: light)" srcset="https://ui.nuxt.com/assets/templates/vue/dashboard-light.png">
-    <img alt="Nuxt Dashboard Template" src="https://ui.nuxt.com/assets/templates/vue/dashboard-light.png">
+    <img alt="Vue Dashboard Template" src="https://ui.nuxt.com/assets/templates/vue/dashboard-light.png">
   </picture>
 </a>
 
