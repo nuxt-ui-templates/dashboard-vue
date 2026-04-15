@@ -10,7 +10,7 @@
     "typecheck": "vue-tsc -p ./tsconfig.app.json"
   },
   "dependencies": {
-    "@internationalized/date": "^3.12.0",
+    "@internationalized/date": "^3.12.1",
     "@nuxt/ui": "^4.6.1",
     "@tanstack/table-core": "^8.21.3",
     "@unhead/vue": "^2.1.13",
@@ -25,11 +25,11 @@
     "zod": "^4.3.6"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^6.0.5",
+    "@vitejs/plugin-vue": "^6.0.6",
     "eslint": "^10.2.0",
     "eslint-plugin-vue": "^10.8.0",
     "typescript": "^6.0.2",
-    "typescript-eslint": "^8.58.1",
+    "typescript-eslint": "^8.58.2",
     "vite": "^7.3.2",
     "vite-plugin-vue-layouts": "^0.11.0",
     "vue-tsc": "^3.2.6"
