@@ -22,7 +22,7 @@
     "tailwindcss": "^4.2.4",
     "vue": "^3.5.33",
     "vue-router": "^5.0.6",
-    "zod": "^4.4.2"
+    "zod": "^4.4.3"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.6",
@@ -32,7 +32,7 @@
     "typescript-eslint": "^8.59.1",
     "vite": "^7.3.2",
     "vite-plugin-vue-layouts": "^0.11.0",
-    "vue-tsc": "^3.2.7"
+    "vue-tsc": "^3.2.8"
   },
   "packageManager": "pnpm@10.33.2"
 }
