@@ -13,7 +13,7 @@ importers:
         version: 3.12.1
       '@nuxt/ui':
         specifier: ^4.7.1
-        version: 4.7.1(@internationalized/date@3.12.1)(@internationalized/number@3.6.5)(@tiptap/extensions@3.22.4(@tiptap/core@3.22.4(@tiptap/pm@3.22.4))(@tiptap/pm@3.22.4))(@tiptap/y-tiptap@3.0.2(prosemirror-model@1.25.4)(prosemirror-state@1.4.4)(prosemirror-view@1.41.7)(y-protocols@1.0.7(yjs@13.6.30))(yjs@13.6.30))(embla-carousel@8.6.0)(tailwindcss@4.2.4)(typescript@6.0.3)(vite@7.3.2(jiti@2.6.1)(lightningcss@1.32.0)(yaml@2.8.3))(vue-router@5.0.6(@vue/compiler-sfc@3.5.33)(vue@3.5.33(typescript@6.0.3)))(vue@3.5.33(typescript@6.0.3))(yjs@13.6.30)(zod@4.4.2)
+        version: 4.7.1(@internationalized/date@3.12.1)(@internationalized/number@3.6.5)(@tiptap/extensions@3.22.4(@tiptap/core@3.22.4(@tiptap/pm@3.22.4))(@tiptap/pm@3.22.4))(@tiptap/y-tiptap@3.0.2(prosemirror-model@1.25.4)(prosemirror-state@1.4.4)(prosemirror-view@1.41.7)(y-protocols@1.0.7(yjs@13.6.30))(yjs@13.6.30))(embla-carousel@8.6.0)(tailwindcss@4.2.4)(typescript@6.0.3)(vite@7.3.2(jiti@2.6.1)(lightningcss@1.32.0)(yaml@2.8.3))(vue-router@5.0.6(@vue/compiler-sfc@3.5.33)(vue@3.5.33(typescript@6.0.3)))(vue@3.5.33(typescript@6.0.3))(yjs@13.6.30)(zod@4.4.3)
       '@tanstack/table-core':
         specifier: ^8.21.3
         version: 8.21.3
@@ -45,8 +45,8 @@ importers:
         specifier: ^5.0.6
         version: 5.0.6(@vue/compiler-sfc@3.5.33)(vue@3.5.33(typescript@6.0.3))
       zod:
-        specifier: ^4.4.2
-        version: 4.4.2
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@vitejs/plugin-vue':
         specifier: ^6.0.6
@@ -70,8 +70,8 @@ importers:
         specifier: ^0.11.0
         version: 0.11.0(vite@7.3.2(jiti@2.6.1)(lightningcss@1.32.0)(yaml@2.8.3))(vue-router@5.0.6(@vue/compiler-sfc@3.5.33)(vue@3.5.33(typescript@6.0.3)))(vue@3.5.33(typescript@6.0.3))
       vue-tsc:
-        specifier: ^3.2.7
-        version: 3.2.7(typescript@6.0.3)
+        specifier: ^3.2.8
+        version: 3.2.8(typescript@6.0.3)
 
 packages:
 
@@ -1290,8 +1290,8 @@ packages:
   '@vue/devtools-shared@8.1.1':
     resolution: {integrity: sha512-+h4ttmJYl/txpxHKaoZcaKpC+pvckgLzIDiSQlaQ7kKthKh8KuwoLW2D8hPJEnqKzXOvu15UHEoGyngAXCz0EQ==}
 
-  '@vue/language-core@3.2.7':
-    resolution: {integrity: sha512-Gn4q/tRxbpVGLEuARQ43p3YELlNAFgRUVCgW9U5Cr+5q4vfD2bWDWpl3ABbJMXUt5xlE1dF8dkigg2aUq7JYYw==}
+  '@vue/language-core@3.2.8':
+    resolution: {integrity: sha512-9OiSPQFiAAWNVnXb0d2dcTmcKnFQamhuNES6ayyISrb/mwPWVgoGdAqSfCWqKhQpa3D5gDTcYD+w7ObiheZ81g==}
 
   '@vue/reactivity@3.5.33':
     resolution: {integrity: sha512-p8UfIqyIhb0rYGlSgSBV+lPhF2iUSBcRy7enhTmPqKWadHy9kcOFYF1AejYBP9P+avnd3OBbD49DU4pLWX/94A==}
@@ -2891,8 +2891,8 @@ packages:
       pinia:
         optional: true
 
-  vue-tsc@3.2.7:
-    resolution: {integrity: sha512-zc1tL3HoQni1zGTGrwBVRQb7rGP5SWdu/m4rGB6JcnAC5MT5LFZIxF7Y+EJEnt4hGF23d60rXH7gRjHGb5KQQQ==}
+  vue-tsc@3.2.8:
+    resolution: {integrity: sha512-27vTLJ6Q2370obOd0PFYoYoKnmXJ521uUIedrs3Zhhhg/8YG10VOCMmwt+JQslatpAMTDbnWiitLnoD5VlIvog==}
     hasBin: true
     peerDependencies:
       typescript: '>=5.0.0'
@@ -2955,8 +2955,8 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
 
-  zod@4.4.2:
-    resolution: {integrity: sha512-IynmDyxsEsb9RKzO3J9+4SxXnl2FTFSzNBaKKaMV6tsSk0rw9gYw9gs+JFCq/qk2LCZ78KDwyj+Z289TijSkUw==}
+  zod@4.4.3:
+    resolution: {integrity: sha512-ytENFjIJFl2UwYglde2jchW2Hwm4GJFLDiSXWdTrJQBIN9Fcyp7n4DhxJEiWNAJMV1/BqWfW/kkg71UDcHJyTQ==}
 
 snapshots:
 
@@ -3427,7 +3427,7 @@ snapshots:
       pkg-types: 2.3.0
       std-env: 4.0.0
 
-  '@nuxt/ui@4.7.1(@internationalized/date@3.12.1)(@internationalized/number@3.6.5)(@tiptap/extensions@3.22.4(@tiptap/core@3.22.4(@tiptap/pm@3.22.4))(@tiptap/pm@3.22.4))(@tiptap/y-tiptap@3.0.2(prosemirror-model@1.25.4)(prosemirror-state@1.4.4)(prosemirror-view@1.41.7)(y-protocols@1.0.7(yjs@13.6.30))(yjs@13.6.30))(embla-carousel@8.6.0)(tailwindcss@4.2.4)(typescript@6.0.3)(vite@7.3.2(jiti@2.6.1)(lightningcss@1.32.0)(yaml@2.8.3))(vue-router@5.0.6(@vue/compiler-sfc@3.5.33)(vue@3.5.33(typescript@6.0.3)))(vue@3.5.33(typescript@6.0.3))(yjs@13.6.30)(zod@4.4.2)':
+  '@nuxt/ui@4.7.1(@internationalized/date@3.12.1)(@internationalized/number@3.6.5)(@tiptap/extensions@3.22.4(@tiptap/core@3.22.4(@tiptap/pm@3.22.4))(@tiptap/pm@3.22.4))(@tiptap/y-tiptap@3.0.2(prosemirror-model@1.25.4)(prosemirror-state@1.4.4)(prosemirror-view@1.41.7)(y-protocols@1.0.7(yjs@13.6.30))(yjs@13.6.30))(embla-carousel@8.6.0)(tailwindcss@4.2.4)(typescript@6.0.3)(vite@7.3.2(jiti@2.6.1)(lightningcss@1.32.0)(yaml@2.8.3))(vue-router@5.0.6(@vue/compiler-sfc@3.5.33)(vue@3.5.33(typescript@6.0.3)))(vue@3.5.33(typescript@6.0.3))(yjs@13.6.30)(zod@4.4.3)':
     dependencies:
       '@floating-ui/dom': 1.7.6
       '@iconify/vue': 5.0.0(vue@3.5.33(typescript@6.0.3))
@@ -3497,7 +3497,7 @@ snapshots:
       '@internationalized/date': 3.12.1
       '@internationalized/number': 3.6.5
       vue-router: 5.0.6(@vue/compiler-sfc@3.5.33)(vue@3.5.33(typescript@6.0.3))
-      zod: 4.4.2
+      zod: 4.4.3
     transitivePeerDependencies:
       - '@azure/app-configuration'
       - '@azure/cosmos'
@@ -4397,7 +4397,7 @@ snapshots:
 
   '@vue/devtools-shared@8.1.1': {}
 
-  '@vue/language-core@3.2.7':
+  '@vue/language-core@3.2.8':
     dependencies:
       '@volar/language-core': 2.4.28
       '@vue/compiler-dom': 3.5.33
@@ -6003,10 +6003,10 @@ snapshots:
     optionalDependencies:
       '@vue/compiler-sfc': 3.5.33
 
-  vue-tsc@3.2.7(typescript@6.0.3):
+  vue-tsc@3.2.8(typescript@6.0.3):
     dependencies:
       '@volar/typescript': 2.4.28
-      '@vue/language-core': 3.2.7
+      '@vue/language-core': 3.2.8
       typescript: 6.0.3
 
   vue@3.5.33(typescript@6.0.3):
@@ -6052,4 +6052,4 @@ snapshots:
 
   yocto-queue@0.1.0: {}
 
-  zod@4.4.2: {}
+  zod@4.4.3: {}
