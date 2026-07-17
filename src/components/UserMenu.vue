@@ -118,6 +118,9 @@ const items = computed<DropdownMenuItem[][]>(() => ([[{
     color: 'primary',
     checked: true,
     type: 'checkbox'
+  }, {
+    label: 'Chat',
+    to: 'https://chat-vue-template.nuxt.dev/'
   }]
 }], [{
   label: 'Documentation',
