@@ -132,6 +132,11 @@ const items = computed<DropdownMenuItem[][]>(() => ([[{
   icon: 'simple-icons:github',
   to: 'https://github.com/nuxt-ui-templates/dashboard-vue',
   target: '_blank'
+}, {
+  label: 'Deploy to Vercel',
+  icon: 'simple-icons:vercel',
+  to: 'https://vercel.com/new/clone?repository-name=dashboard-vue&repository-url=https%3A%2F%2Fgithub.com%2Fnuxt-ui-templates%2Fdashboard-vue&demo-image=https%3A%2F%2Fui.nuxt.com%2Fassets%2Ftemplates%2Fvue%2Fdashboard-dark.png&demo-url=https%3A%2F%2Fdashboard-vue-template.nuxt.dev%2F&demo-title=Vue%20Dashboard%20Template&demo-description=A%20dashboard%20template%20with%20multi-column%20layout%20for%20building%20sophisticated%20admin%20interfaces.',
+  target: '_blank'
 }], [{
   label: 'Log out',
   icon: 'i-lucide-log-out'
