@@ -13,7 +13,7 @@
     "@internationalized/date": "^3.12.3",
     "@nuxt/ui": "^4.11.0",
     "@tanstack/table-core": "^8.21.3",
-    "@unhead/vue": "^2.1.17",
+    "@unhead/vue": "^3.4.0",
     "@unovis/ts": "^1.6.7",
     "@unovis/vue": "^1.6.7",
     "@vueuse/core": "^14.4.0",
