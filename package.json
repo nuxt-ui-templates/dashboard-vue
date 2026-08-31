@@ -28,7 +28,7 @@
     "@vitejs/plugin-vue": "^6.0.8",
     "eslint": "^10.9.1",
     "eslint-plugin-vue": "^10.10.0",
-    "typescript": "^6.0.3",
+    "typescript": "^7.0.2",
     "typescript-eslint": "^8.68.0",
     "vite": "^8.2.2",
     "vite-plugin-vue-layouts": "^0.11.0",
