@@ -12,7 +12,7 @@
   "dependencies": {
     "@internationalized/date": "^3.12.4",
     "@nuxt/ui": "^4.11.1",
-    "@tanstack/table-core": "^8.21.3",
+    "@tanstack/table-core": "^9.2.4",
     "@unhead/vue": "^3.4.1",
     "@unovis/ts": "^1.7.0",
     "@unovis/vue": "^1.7.0",
