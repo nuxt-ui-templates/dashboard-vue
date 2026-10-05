@@ -16,7 +16,7 @@
     "@unhead/vue": "^3.4.2",
     "@unovis/ts": "^1.7.1",
     "@unovis/vue": "^1.7.1",
-    "@vueuse/core": "^14.4.0",
+    "@vueuse/core": "^15.0.0",
     "date-fns": "^4.4.0",
     "scule": "^1.3.0",
     "tailwindcss": "^4.3.3",
