@@ -1,5 +1,4 @@
 allowBuilds:
   '@tailwindcss/oxide': false
   esbuild: false
-  maplibre-gl: false
   vue-demi: false
