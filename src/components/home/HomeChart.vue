@@ -2,6 +2,7 @@
 import { eachDayOfInterval, eachWeekOfInterval, eachMonthOfInterval, format } from 'date-fns'
 import { computed, ref, watch } from 'vue'
 import type { Period, Range } from '../../types'
+import { randomInt } from '../../utils'
 
 const props = defineProps<{
   period: Period
@@ -32,10 +33,11 @@ watch([() => props.period, () => props.range], () => {
     monthly: eachMonthOfInterval
   } as Record<Period, typeof eachDayOfInterval>)[props.period](props.range)
 
-  const min = 1000
-  const max = 10000
+  // The y axis rounds the highest amount up to its next step, so keeping it just above 7,000 leaves room above the peak
+  const amounts = dates.map(() => randomInt(1000, 7000))
+  amounts[randomInt(0, amounts.length - 1)] = randomInt(7100, 7200)
 
-  data.value = dates.map(date => ({ date: formatDate(date), amount: Math.floor(Math.random() * (max - min + 1)) + min }))
+  data.value = dates.map((date, i) => ({ date: formatDate(date), amount: amounts[i]! }))
 }, { immediate: true })
 
 const total = computed(() => data.value.reduce((acc: number, { amount }) => acc + amount, 0))
