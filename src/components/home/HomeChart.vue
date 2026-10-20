@@ -56,6 +56,7 @@ const total = computed(() => data.value.reduce((acc: number, { amount }) => acc 
 
     <UChart
       type="area"
+      curve="monotone"
       :data="data"
       index="date"
       :categories="[{ key: 'amount', label: 'Revenue' }]"
