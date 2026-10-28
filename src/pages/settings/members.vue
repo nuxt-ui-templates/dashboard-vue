@@ -8,9 +8,9 @@ const { data: members } = useFetch<Member[]>('https://dashboard-template.nuxt.de
 const q = ref('')
 
 const filteredMembers = computed(() => {
-  return members.value?.filter((member) => {
-    return member.name.search(new RegExp(q.value, 'i')) !== -1 || member.username.search(new RegExp(q.value, 'i')) !== -1
-  }) ?? []
+  const search = q.value.toLowerCase()
+
+  return members.value?.filter(member => member.name.toLowerCase().includes(search) || member.username.toLowerCase().includes(search)) ?? []
 })
 </script>
 
