@@ -17,7 +17,7 @@ const { data: notifications } = useFetch('https://dashboard-template.nuxt.dev/ap
       <RouterLink
         v-for="notification in notifications"
         :key="notification.id"
-        :to="`/inbox?id=${notification.id}`"
+        to="/inbox"
         class="px-3 py-2.5 rounded-md hover:bg-elevated/50 flex items-center gap-3 relative -mx-3 first:-mt-3 last:-mb-3"
       >
         <UChip
