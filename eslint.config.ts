@@ -1,7 +1,6 @@
-import betterTailwindcss from 'eslint-plugin-better-tailwindcss'
-import { getDefaultAttributes } from 'eslint-plugin-better-tailwindcss/api/defaults'
 import eslintPluginVue from 'eslint-plugin-vue'
 import ts from 'typescript-eslint'
+import nuxtUI from '@nuxt/ui/eslint'
 
 export default ts.config(
   ...ts.configs.recommended,
@@ -19,16 +18,13 @@ export default ts.config(
       'no-undef': 'off'
     }
   },
-  betterTailwindcss.configs['correctness-error'],
-  {
-    settings: {
-      'better-tailwindcss': {
-        entryPoint: 'src/assets/css/main.css',
-        attributes: [
-          ...getDefaultAttributes(),
-          ['^v-bind:ui$', [{ match: 'objectValues' }]]
-        ]
-      }
+  ...nuxtUI({
+    entryPoint: 'src/assets/css/main.css',
+    colors: { primary: 'green', neutral: 'zinc' },
+    rules: {
+      'no-unknown-classes': 'error',
+      'no-conflicting-classes': 'error',
+      'no-palette-colors': 'error'
     }
-  }
+  })
 )
