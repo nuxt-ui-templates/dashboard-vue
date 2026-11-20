@@ -2,3 +2,6 @@ allowBuilds:
   '@tailwindcss/oxide': false
   esbuild: false
   vue-demi: false
+
+minimumReleaseAgeExclude:
+  - '@nuxt/ui'
